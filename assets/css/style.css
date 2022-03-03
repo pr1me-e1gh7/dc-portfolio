@@ -238,7 +238,8 @@ section h2 a:hover {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 992px) { */
   .card-large {
     width: auto;
 }
@@ -254,6 +255,10 @@ section h2 a:hover {
   header, section, .hero {
       flex-direction: column;
   }
+  header h1 {
+    font-size: 175%;
+    margin-bottom: -2px;
+  }
   .hero {
       background-attachment: scroll;
       height: auto;
@@ -265,12 +270,18 @@ section h2 a:hover {
   main {
     max-width: 992px;
   }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+  }
   #navlist {
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-bottom: 0%;
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 0%;
+    font-size: 12px;
   }
   section {
       max-width: 100%;
