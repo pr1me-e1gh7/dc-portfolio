@@ -255,6 +255,7 @@ section h2 a:hover {
     max-width: 992px;
   }
   #navlist {
+    justify-content: flex-start;
     list-style-type: decimal;
   }
   section {
