@@ -88,7 +88,6 @@ nav a:hover {
 }
 #navlist {
   display: flex;
-  justify-content: flex-end;
   list-style-type: none;
   min-width: 300px;
 }
@@ -96,16 +95,15 @@ nav a:hover {
 /* BANNER */
 .hero {
   align-items: center;
+  background-attachment: fixed;
+  background-image: url(https://techcrunch.com/wp-content/uploads/2019/03/final-gif.gif?w=1390&crop=1);
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 10px solid var(--heroBorder);
   display: flex;
   height: 300px;
   justify-content: center;
   width: 100%;
-  
-  background-attachment: fixed;
-  background-image: url(/assets/images/codebkgd.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
 }    
 .hero img {
   border-radius: 100%;
