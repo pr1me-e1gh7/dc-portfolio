@@ -187,6 +187,12 @@ section h2 a:hover {
   padding-right: 20px;
 }
 
+/* ABOUT ME */
+section article h4 {
+  /* text-decoration: underline; */
+  font-style: italic;
+}
+
 /* PROJECTS SECTION */
 .card-content {
   background-color: var(--cardBkgd);
