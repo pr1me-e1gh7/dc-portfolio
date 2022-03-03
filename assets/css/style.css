@@ -50,6 +50,11 @@ ol, ul {
 }
 
 /* NAVBAR */
+.fa-user,
+.fa-code,
+.fa-address-card {
+  font-size: 20px;
+}
 header {
   align-items: center;
   background-color: var(--headerBkgd);
@@ -240,6 +245,12 @@ section h2 a:hover {
   .card-large, .card-small {
       flex: 1 1 80%;
   }
+  .fa-user,
+  .fa-code,
+  .fa-address-card {
+    display: none;
+    margin: 0px;
+  }
   header, section, .hero {
       flex-direction: column;
   }
@@ -256,7 +267,10 @@ section h2 a:hover {
   }
   #navlist {
     justify-content: flex-start;
-    list-style-type: decimal;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
   }
   section {
       max-width: 100%;
