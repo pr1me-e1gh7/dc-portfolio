@@ -15,7 +15,7 @@
   --mainTextHover: #FFFFFF;
   --pageBkgd: #000000;
   /* --pageBkgd:#006400; */
-  --cardBkgd: #000000;
+  --cardBkgd: #0000008f;
 }
 body {
   background-color: var(--pageBkgd);
@@ -196,10 +196,9 @@ section article h4 {
 /* PROJECTS SECTION */
 .card-content {
   background-color: var(--cardBkgd);
-  bottom: 20px;
-  left: -1px;
-  padding: 20px 12px;
-  position: absolute;
+  bottom: 100px;
+  padding: 8px 0 2px 0;
+  position: relative;
 }
 .card-image {
   border: black;
@@ -219,7 +218,10 @@ section article h4 {
 .card-small {
   border: 6px solid black;
   position: relative;
-  transition: border 0.2s, transform 0.2s;
+}
+.card-large:hover,
+.card-small:hover {
+  border: 8px solid white;
 }
 .card-small {
   height: 300px;
@@ -228,6 +230,15 @@ section article h4 {
 .card-title {
   font-size: 1.2rem;
   text-align: center;
+}
+.card-title a {
+  color: var(--mainText);
+  text-decoration: none;
+  font-size: 14px;
+}
+.card-title a:hover {
+  color: var(--mainTextHover);
+  text-decoration: none;
 }
 
 /* CONTACT SECTION */
